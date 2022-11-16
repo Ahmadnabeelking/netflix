@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Netflix Sans;
+    background-color: black;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+/*start navbar*/
+.nav-link i{
+    font-size: 14px;
+    padding-right: 4px;
+}
+.nav-item .btn{
+    padding: 0.3rem 1rem;
+}
+
+.dropdown-toggle{
+    border: 1px solid white;
+    padding: 0.3rem 0.5rem;
+}
+.dropdown-menu{
+    min-width: 6rem;
+}
+.dropdown-item{
+    background-color: rgb(170, 170, 170);
+}
+.dropdown-menu .dropdown-item:hover{
+    color: black !important;
+}
+/*end navbar*/
+/*start header */
+.header{
+    height: 100vh;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    border-bottom: 10px solid #222;
+}
+.overly{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.headerone{
+    font-size: 4rem;
+    width: 68%;
+    font-weight: 900;
+}
+.headertwo{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.headerpa {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+/*end header*/
+/*start enjoy section*/
+.enjoy{
+    padding-bottom: 5rem;
+    border-bottom: 10px solid #222;
+}
+.enjo {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    color: white;  
+}
+.enjo h2{
+    
+    font-size: 4rem;
+    font-weight: 600;
+}
+.enjo p{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.img-tv{
+    position: relative;
+}
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+.img-tv .video-tv{
+    position: absolute;
+    top: 97px;
+    left: 86px;
+}
+/*end enjoy section*/
+/*start section download*/
+.download {
+    padding-bottom: 5rem;
+    border-bottom: 10px solid #222;
+    margin: auto;
+}
+.download .enjo h2{
+    font-size: 3rem;
+}
+.download .img-tv{
+    position: relative;
+}
+.mobile-card{
+    position: absolute;
+    left: 22%;
+    bottom: 8%;
+    margin: 0 auto;
+    width: 60%;
+    min-width: 15em;
+    padding: .25em .65em;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: .75em;
+    box-shadow: 0 0 2em 0 #000;
+    background: #000;
+    z-index: 1 !important;
+}
+.mobile-card .content{
+    text-align: left;
+    margin-right: 3rem;
+}
+.mobile-card .content h3{
+    font-size: 1.5rem;
+}
+.mobile-card .icon img{
+    width: 4rem;
+}
+.mobile-card h4{
+    font-size: 2rem;
+}
+
+.mobile-card p{
+    font-size: 1.2rem;
+    color: blue !important;
+}
+.mobile-card .card-image img{
+    height: 4.5em;
+}
+/*end section download*/
+
+/*start section watch*/
+.watch{
+    padding-bottom: 5rem;
+    border-bottom: 10px solid #222;
+}
+.watch h2{
+    font-size: 3rem;
+}
+.watch  .video-tv{
+    width: 410px;
+    top: 42px;
+    left: 117px;
+}
+/*end section watch*/
+
+/*start create section*/
+.create{
+    padding-bottom: 5rem;
+    border-bottom: 10px solid #222;
+}
+.row{
+    --bs-gutter-x: 0;
+
+}
+.create img{
+    margin-top: 5rem !important;
+}
+.create h2{
+    font-size: 3rem;
+}
+/*end create section*/
+
+/*start frequestly section*/
+.frequestly{
+    border-bottom: 10px solid #222;
+}
+.frequestly h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.frequestly .from-group{
+    padding: 2rem 7rem;
+}
+.accordion{
+    --bs-accordion-bg: #000;
+}
+.frequestly .accordion-button{
+    
+    background-color: #303030;
+    padding: 1.2rem 2.2rem 1.1rem 1.2rem;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    position: relative;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    box-shadow: none;
+}
+.accordion-button::after{
+    background-image: none;
+    content: "\2b";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: "\f00d";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+
+}
+.frequestly .accordion-body{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #303030;
+    margin-top: 1px;
+    white-space: pre-line;
+}
+.frequestly .hedaer3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/*end frequestly section*/
+
+/*start footer section*/
+.footer .footer-pa a{
+    text-decoration: none;
+    color: #737373;
+}
+.footer-row .footer-ul{
+  list-style: none;  
+}
+.footer-row .footer-ul .footer-list a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #737373;
+}
+.footer-row .footer-ul .footer-list a:hover{
+    color: #737373;
+    text-decoration: underline;
+}
+.footer .dropdown{
+    padding-left: 0.2rem;
+    color: #737373;
+    border-color: #737373;
+}
+.footer .dropdown a{
+    color: #737373 !important;
+}
+.footer .dropdown i{
+    margin-right: 8px;
+}
+.footer h5{
+    font-size: 0.8rem;
+    color: #737373;
+}
+/*end footer section*/

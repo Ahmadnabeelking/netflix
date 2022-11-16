@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans;
+
+}
+
+.header{
+   background-image: url(../img/header2.jpg);
+   height: 130vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.overly{
+    height: 130vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.navbar{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+}
+.form_data{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 3rem;
+    width: 100%;
+    height: 75vh;
+    margin-top: 2rem;
+}
+.form-floating .form-label{
+    padding: 0rem 0.75rem;
+}
+
+.form-control{
+    color: red;
+    transition: none !important;
+    border: none !important;
+    background-color: #333333 !important;
+    padding: 0rem 0.75rem;
+}
+.form-control:focus{
+    color: red ;
+    border-bottom: 3px solid #e87033 !important;
+    background-color: #333333;
+    outline: 10 !important;
+    border-color: none !important;
+    box-shadow: none !important;
+    transition: all 0.3s;
+}
+.theme-btn{
+    background-color: red !important;
+}
+.theme-btn:focus{
+    border-bottom: 3px solid black !important;
+}
+.form-check-label{
+    color: rgb(179, 179, 179);
+}
+.form_footer_setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.form-footer{
+color: rgb(179, 179, 179);
+font-size: 10px;
+margin-top: 10px;
+}
+.footer{
+    background-color:  rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 50%;
+}
+.footer .footer-pa a{
+    text-decoration: none;
+    color: #737373;
+}
+.footer-row .footer-ul{
+  list-style: none;  
+}
+.footer-row .footer-ul .footer-list a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #737373;
+}
+.footer-row .footer-ul .footer-list a:hover{
+    color: #737373;
+    text-decoration: underline;
+}
+.footer .dropdown{
+    padding-left: 0.2rem;
+    color: #737373;
+    border-color: #737373;
+}
+.footer .dropdown a{
+    color: #737373 !important;
+}
+.footer .dropdown i{
+    margin-right: 8px;
+}
+.footer h5{
+    font-size: 0.8rem;
+    color: #737373;
+}
+.nav-link i{
+    font-size: 14px;
+    padding-right: 4px;
+}
+.nav-item .btn{
+    padding: 0.3rem 1rem;
+}
+.dropdown-toggle{
+    border: 1px solid white;
+    padding: 0.3rem 0.5rem;
+}
+.dropdown-menu{
+    min-width: 6rem;
+}
+.dropdown-item{
+    background-color: black !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: white     !important;
+}

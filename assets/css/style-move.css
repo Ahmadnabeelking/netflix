@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans;
+}
+body{
+    background-color: #141414;;
+}
+/* strat navbar*/
+.secnav{
+    margin-left: 50rem !important  ;
+}
+.nav-item .nav-link{
+    color: #e5e5e5;
+}
+.nav-item .nav-link:hover{
+    color: #3b3b3b;
+}
+.secnav i{
+    font-size: 1.3rem;
+}
+
+/* end navbar*/
+/* start header*/
+.header{
+    height: 100vh;
+    background-image: url(../img/header-move.webp);
+    background-size: cover;
+    background-attachment: fixed;    
+}
+.header .header-content p{
+    width: 55%;
+    font-size: 1.5rem;
+}
+.header .header-content .btn{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.header .icon{
+    position: absolute;
+    right: 0;
+    bottom: 4vh;
+}
+.header .icon i{
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+.header .icon .age{
+    background-color: rgba(109, 109, 110, 0.4);
+    color: #fff;
+    padding: 5px 29px;
+    border-left: 2px solid #fff;
+}
+/* end header*/
+
+/* start tv section*/
+.tittel{
+    cursor: pointer;
+}
+.tittel:before {
+    content: '\f105';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    position: absolute;
+    left: 32% !important; 
+    font-size: 20px;
+    line-height: 2.3;
+    color: #54b9c5;
+    transition: .5s;
+    opacity: 0;
+    cursor: pointer;
+}
+.tittel:hover:before{
+    opacity: 1;
+    cursor: pointer;
+} 
+.tittel:after {
+    text-transform: capitalize;
+    content: ' explore all';
+    font-size: 26px;
+    color: #54b9c5;
+    transition: .5s;
+    margin-left: 1rem;
+    opacity: 0;
+    cursor: pointer;
+}
+.tittel:hover:after{
+    opacity: 1;
+    cursor: pointer;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.row-word{
+    display: block;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.img{
+    padding: 0 15px;
+    
+}
+.img:hover {
+    z-index: 9999;
+    transform: scale(1.1);
+    opacity: 1;
+}
+.img:hover .row-word{
+    opacity: 1;
+}
+.portfo i{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/*end tv section*/
+/*strat footer*/
+.footer .icon{
+    width: 12%;
+}
+.footer-row .footer-ul{
+    list-style: none;  
+    color: aliceblue;;
+  }
+  .footer-row .footer-ul .footer-list:hover{
+    text-decoration: underline;
+  }
+  .footer h5{
+    font-size: 1rem;
+  }
+  .footer .nav-item{
+    padding: 0.2rem 0.5rem;
+  }
+  .footer .nav-item .nav-link{
+    color: #808080 !important;
+  }
+  .footer .nav-item .nav-link:hover{
+    color: aliceblue !important;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+/*end footer*/
